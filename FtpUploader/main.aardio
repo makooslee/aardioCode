@@ -1,0 +1,11 @@
+import win.ui;
+/*DSG{{*/
+mainForm = win.form(text="aardio form";right=759;bottom=469)
+mainForm.add()
+/*}}*/
+
+
+mainForm.enableDpiScaling();
+mainForm.show();
+
+return win.loopMessage(); 
