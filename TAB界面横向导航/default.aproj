@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project ver="10" name="aardio工程" libEmbed="true" icon="..." ui="win" output="aardio工程.exe" CompanyName="单位名称" FileDescription="aardio工程" LegalCopyright="Copyright (C) 单位名称 2018" ProductName="aardio工程" InternalName="aardio工程" FileVersion="0.0.0.1" ProductVersion="0.0.0.1" publishDir="/Publish/" dstrip="false">
+	<file name="main" path="main.aardio"/>
+	<folder name="资源文件" path="res" embed="true">
+		<folder name="images" path="res\images" comment="res\images">
+			<file name="xp.png" path="res\images\xp.png" comment="res\images\xp.png"/>
+			<file name="word.png" path="res\images\word.png" comment="res\images\word.png"/>
+			<file name="rss.png" path="res\images\rss.png" comment="res\images\rss.png"/>
+			<file name="restore-hover.png" path="res\images\restore-hover.png" comment="res\images\restore-hover.png"/>
+			<file name="restore-default.png" path="res\images\restore-default.png" comment="res\images\restore-default.png"/>
+			<file name="restore-active.png" path="res\images\restore-active.png" comment="res\images\restore-active.png"/>
+			<file name="ppt.png" path="res\images\ppt.png" comment="res\images\ppt.png"/>
+			<file name="min-hover.png" path="res\images\min-hover.png" comment="res\images\min-hover.png"/>
+			<file name="min-default.png" path="res\images\min-default.png" comment="res\images\min-default.png"/>
+			<file name="min-active.png" path="res\images\min-active.png" comment="res\images\min-active.png"/>
+			<file name="max-hover.png" path="res\images\max-hover.png" comment="res\images\max-hover.png"/>
+			<file name="max-default.png" path="res\images\max-default.png" comment="res\images\max-default.png"/>
+			<file name="max-active.png" path="res\images\max-active.png" comment="res\images\max-active.png"/>
+			<file name="main-nav-bg.png" path="res\images\main-nav-bg.png" comment="res\images\main-nav-bg.png"/>
+			<file name="main-nav-bg-hover.png" path="res\images\main-nav-bg-hover.png" comment="res\images\main-nav-bg-hover.png"/>
+			<file name="feed.png" path="res\images\feed.png" comment="res\images\feed.png"/>
+			<file name="excel.png" path="res\images\excel.png" comment="res\images\excel.png"/>
+			<file name="db.png" path="res\images\db.png" comment="res\images\db.png"/>
+			<file name="close-normal.png" path="res\images\close-normal.png" comment="res\images\close-normal.png"/>
+			<file name="close-hover.png" path="res\images\close-hover.png" comment="res\images\close-hover.png"/>
+			<file name="close-default.png" path="res\images\close-default.png" comment="res\images\close-default.png"/>
+			<file name="close-active.png" path="res\images\close-active.png" comment="res\images\close-active.png"/>
+			<file name="bg.png" path="res\images\bg.png" comment="res\images\bg.png"/>
+			<file name="bg.gif" path="res\images\bg.gif" comment="res\images\bg.gif"/>
+		</folder>
+	</folder>
+	<folder name="窗体" path="forms" comment="" embed="true">
+		<file name="page1.aardio" path="forms\page1.aardio" comment="forms\page1.aardio"/>
+		<file name="page2.aardio" path="forms\page2.aardio" comment="forms\page2.aardio"/>
+		<file name="page3.aardio" path="forms\page3.aardio" comment="forms\page3.aardio"/>
+		<folder name="images" path="forms\images" comment="forms\images" embed="false">
+			<file name="1.gif" path="forms\images\1.gif" comment="forms\images\1.gif"/>
+			<file name="2.gif" path="forms\images\2.gif" comment="forms\images\2.gif"/>
+		</folder>
+	</folder>
+</project>
