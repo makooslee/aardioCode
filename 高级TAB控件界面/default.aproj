@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project ver="10" name="aardio工程21" libEmbed="true" icon="..." ui="win" output="aardio工程21.exe" CompanyName="单位名称" FileDescription="aardio工程21" LegalCopyright="Copyright (C) 作者 2018" ProductName="aardio工程21" InternalName="aardio工程21" FileVersion="0.0.0.1" ProductVersion="0.0.0.1" publishDir="/Publish/" dstrip="false">
+	<file name="main.aardio" path="default.main.aardio" comment="default.main.aardio"/>
+	<folder name="资源文件" path="res" embed="true">
+		<file name="aa.aardio" path="res\aa.aardio" comment="res\aa.aardio"/>
+		<file name="bb.aardio" path="res\bb.aardio" comment="res\bb.aardio"/>
+		<file name="echart.aardio" path="res\echart.aardio" comment="res\echart.aardio"/>
+		<file name="home.jpg" path="res\home.jpg" comment="res\home.jpg"/>
+		<file name="layui.aardio" path="res\layui.aardio" comment="res\layui.aardio"/>
+		<file name="layuitable.aardio" path="res\layuitable.aardio" comment="res\layuitable.aardio"/>
+		<file name="set.aardio" path="res\set.aardio" comment="res\set.aardio"/>
+		<folder name="app" path="res\app" comment="res\app">
+			<file name="echartindex.aardio" path="res\app\echartindex.aardio" comment="res\app\echartindex.aardio"/>
+			<file name="layuiindex.aardio" path="res\app\layuiindex.aardio" comment="res\app\layuiindex.aardio"/>
+			<file name="layuitable.aardio" path="res\app\layuitable.aardio" comment="res\app\layuitable.aardio"/>
+		</folder>
+		<folder name="echarts" path="res\echarts" comment="res\echarts">
+			<file name="echarts.min.js" path="res\echarts\echarts.min.js" comment="res\echarts\echarts.min.js"/>
+		</folder>
+		<folder name="layui" path="res\layui" comment="res\layui">
+			<file name="layui.all.js" path="res\layui\layui.all.js" comment="res\layui\layui.all.js"/>
+			<file name="layui.js" path="res\layui\layui.js" comment="res\layui\layui.js"/>
+			<folder name="css" path="res\layui\css" comment="res\layui\css">
+				<file name="layui.css" path="res\layui\css\layui.css" comment="res\layui\css\layui.css"/>
+				<file name="layui.mobile.css" path="res\layui\css\layui.mobile.css" comment="res\layui\css\layui.mobile.css"/>
+				<folder name="modules" path="res\layui\css\modules" comment="res\layui\css\modules">
+					<file name="code.css" path="res\layui\css\modules\code.css" comment="res\layui\css\modules\code.css"/>
+					<folder name="laydate" path="res\layui\css\modules\laydate" comment="res\layui\css\modules\laydate">
+						<folder name="default" path="res\layui\css\modules\laydate\default" comment="res\layui\css\modules\laydate\default">
+							<file name="laydate.css" path="res\layui\css\modules\laydate\default\laydate.css" comment="res\layui\css\modules\laydate\default\laydate.css"/>
+						</folder>
+					</folder>
+					<folder name="layer" path="res\layui\css\modules\layer" comment="res\layui\css\modules\layer">
+						<folder name="default" path="res\layui\css\modules\layer\default" comment="res\layui\css\modules\layer\default">
+							<file name="icon-ext.png" path="res\layui\css\modules\layer\default\icon-ext.png" comment="res\layui\css\modules\layer\default\icon-ext.png"/>
+							<file name="icon.png" path="res\layui\css\modules\layer\default\icon.png" comment="res\layui\css\modules\layer\default\icon.png"/>
+							<file name="layer.css" path="res\layui\css\modules\layer\default\layer.css" comment="res\layui\css\modules\layer\default\layer.css"/>
+							<file name="loading-0.gif" path="res\layui\css\modules\layer\default\loading-0.gif" comment="res\layui\css\modules\layer\default\loading-0.gif"/>
+							<file name="loading-1.gif" path="res\layui\css\modules\layer\default\loading-1.gif" comment="res\layui\css\modules\layer\default\loading-1.gif"/>
+							<file name="loading-2.gif" path="res\layui\css\modules\layer\default\loading-2.gif" comment="res\layui\css\modules\layer\default\loading-2.gif"/>
+						</folder>
+					</folder>
+				</folder>
+			</folder>
+			<folder name="font" path="res\layui\font" comment="res\layui\font">
+				<file name="iconfont.svg" path="res\layui\font\iconfont.svg" comment="res\layui\font\iconfont.svg"/>
+			</folder>
+			<folder name="images" path="res\layui\images" comment="res\layui\images">
+				<folder name="face" path="res\layui\images\face" comment="res\layui\images\face">
+					<file name="0.gif" path="res\layui\images\face\0.gif" comment="res\layui\images\face\0.gif"/>
+					<file name="1.gif" path="res\layui\images\face\1.gif" comment="res\layui\images\face\1.gif"/>
+					<file name="10.gif" path="res\layui\images\face\10.gif" comment="res\layui\images\face\10.gif"/>
+					<file name="11.gif" path="res\layui\images\face\11.gif" comment="res\layui\images\face\11.gif"/>
+					<file name="12.gif" path="res\layui\images\face\12.gif" comment="res\layui\images\face\12.gif"/>
+					<file name="13.gif" path="res\layui\images\face\13.gif" comment="res\layui\images\face\13.gif"/>
+					<file name="14.gif" path="res\layui\images\face\14.gif" comment="res\layui\images\face\14.gif"/>
+					<file name="15.gif" path="res\layui\images\face\15.gif" comment="res\layui\images\face\15.gif"/>
+					<file name="16.gif" path="res\layui\images\face\16.gif" comment="res\layui\images\face\16.gif"/>
+					<file name="17.gif" path="res\layui\images\face\17.gif" comment="res\layui\images\face\17.gif"/>
+					<file name="18.gif" path="res\layui\images\face\18.gif" comment="res\layui\images\face\18.gif"/>
+					<file name="19.gif" path="res\layui\images\face\19.gif" comment="res\layui\images\face\19.gif"/>
+					<file name="2.gif" path="res\layui\images\face\2.gif" comment="res\layui\images\face\2.gif"/>
+					<file name="20.gif" path="res\layui\images\face\20.gif" comment="res\layui\images\face\20.gif"/>
+					<file name="21.gif" path="res\layui\images\face\21.gif" comment="res\layui\images\face\21.gif"/>
+					<file name="22.gif" path="res\layui\images\face\22.gif" comment="res\layui\images\face\22.gif"/>
+					<file name="23.gif" path="res\layui\images\face\23.gif" comment="res\layui\images\face\23.gif"/>
+					<file name="24.gif" path="res\layui\images\face\24.gif" comment="res\layui\images\face\24.gif"/>
+					<file name="25.gif" path="res\layui\images\face\25.gif" comment="res\layui\images\face\25.gif"/>
+					<file name="26.gif" path="res\layui\images\face\26.gif" comment="res\layui\images\face\26.gif"/>
+					<file name="27.gif" path="res\layui\images\face\27.gif" comment="res\layui\images\face\27.gif"/>
+					<file name="28.gif" path="res\layui\images\face\28.gif" comment="res\layui\images\face\28.gif"/>
+					<file name="29.gif" path="res\layui\images\face\29.gif" comment="res\layui\images\face\29.gif"/>
+					<file name="3.gif" path="res\layui\images\face\3.gif" comment="res\layui\images\face\3.gif"/>
+					<file name="30.gif" path="res\layui\images\face\30.gif" comment="res\layui\images\face\30.gif"/>
+					<file name="31.gif" path="res\layui\images\face\31.gif" comment="res\layui\images\face\31.gif"/>
+					<file name="32.gif" path="res\layui\images\face\32.gif" comment="res\layui\images\face\32.gif"/>
+					<file name="33.gif" path="res\layui\images\face\33.gif" comment="res\layui\images\face\33.gif"/>
+					<file name="34.gif" path="res\layui\images\face\34.gif" comment="res\layui\images\face\34.gif"/>
+					<file name="35.gif" path="res\layui\images\face\35.gif" comment="res\layui\images\face\35.gif"/>
+					<file name="36.gif" path="res\layui\images\face\36.gif" comment="res\layui\images\face\36.gif"/>
+					<file name="37.gif" path="res\layui\images\face\37.gif" comment="res\layui\images\face\37.gif"/>
+					<file name="38.gif" path="res\layui\images\face\38.gif" comment="res\layui\images\face\38.gif"/>
+					<file name="39.gif" path="res\layui\images\face\39.gif" comment="res\layui\images\face\39.gif"/>
+					<file name="4.gif" path="res\layui\images\face\4.gif" comment="res\layui\images\face\4.gif"/>
+					<file name="40.gif" path="res\layui\images\face\40.gif" comment="res\layui\images\face\40.gif"/>
+					<file name="41.gif" path="res\layui\images\face\41.gif" comment="res\layui\images\face\41.gif"/>
+					<file name="42.gif" path="res\layui\images\face\42.gif" comment="res\layui\images\face\42.gif"/>
+					<file name="43.gif" path="res\layui\images\face\43.gif" comment="res\layui\images\face\43.gif"/>
+					<file name="44.gif" path="res\layui\images\face\44.gif" comment="res\layui\images\face\44.gif"/>
+					<file name="45.gif" path="res\layui\images\face\45.gif" comment="res\layui\images\face\45.gif"/>
+					<file name="46.gif" path="res\layui\images\face\46.gif" comment="res\layui\images\face\46.gif"/>
+					<file name="47.gif" path="res\layui\images\face\47.gif" comment="res\layui\images\face\47.gif"/>
+					<file name="48.gif" path="res\layui\images\face\48.gif" comment="res\layui\images\face\48.gif"/>
+					<file name="49.gif" path="res\layui\images\face\49.gif" comment="res\layui\images\face\49.gif"/>
+					<file name="5.gif" path="res\layui\images\face\5.gif" comment="res\layui\images\face\5.gif"/>
+					<file name="50.gif" path="res\layui\images\face\50.gif" comment="res\layui\images\face\50.gif"/>
+					<file name="51.gif" path="res\layui\images\face\51.gif" comment="res\layui\images\face\51.gif"/>
+					<file name="52.gif" path="res\layui\images\face\52.gif" comment="res\layui\images\face\52.gif"/>
+					<file name="53.gif" path="res\layui\images\face\53.gif" comment="res\layui\images\face\53.gif"/>
+					<file name="54.gif" path="res\layui\images\face\54.gif" comment="res\layui\images\face\54.gif"/>
+					<file name="55.gif" path="res\layui\images\face\55.gif" comment="res\layui\images\face\55.gif"/>
+					<file name="56.gif" path="res\layui\images\face\56.gif" comment="res\layui\images\face\56.gif"/>
+					<file name="57.gif" path="res\layui\images\face\57.gif" comment="res\layui\images\face\57.gif"/>
+					<file name="58.gif" path="res\layui\images\face\58.gif" comment="res\layui\images\face\58.gif"/>
+					<file name="59.gif" path="res\layui\images\face\59.gif" comment="res\layui\images\face\59.gif"/>
+					<file name="6.gif" path="res\layui\images\face\6.gif" comment="res\layui\images\face\6.gif"/>
+					<file name="60.gif" path="res\layui\images\face\60.gif" comment="res\layui\images\face\60.gif"/>
+					<file name="61.gif" path="res\layui\images\face\61.gif" comment="res\layui\images\face\61.gif"/>
+					<file name="62.gif" path="res\layui\images\face\62.gif" comment="res\layui\images\face\62.gif"/>
+					<file name="63.gif" path="res\layui\images\face\63.gif" comment="res\layui\images\face\63.gif"/>
+					<file name="64.gif" path="res\layui\images\face\64.gif" comment="res\layui\images\face\64.gif"/>
+					<file name="65.gif" path="res\layui\images\face\65.gif" comment="res\layui\images\face\65.gif"/>
+					<file name="66.gif" path="res\layui\images\face\66.gif" comment="res\layui\images\face\66.gif"/>
+					<file name="67.gif" path="res\layui\images\face\67.gif" comment="res\layui\images\face\67.gif"/>
+					<file name="68.gif" path="res\layui\images\face\68.gif" comment="res\layui\images\face\68.gif"/>
+					<file name="69.gif" path="res\layui\images\face\69.gif" comment="res\layui\images\face\69.gif"/>
+					<file name="7.gif" path="res\layui\images\face\7.gif" comment="res\layui\images\face\7.gif"/>
+					<file name="70.gif" path="res\layui\images\face\70.gif" comment="res\layui\images\face\70.gif"/>
+					<file name="71.gif" path="res\layui\images\face\71.gif" comment="res\layui\images\face\71.gif"/>
+					<file name="8.gif" path="res\layui\images\face\8.gif" comment="res\layui\images\face\8.gif"/>
+					<file name="9.gif" path="res\layui\images\face\9.gif" comment="res\layui\images\face\9.gif"/>
+				</folder>
+			</folder>
+			<folder name="lay" path="res\layui\lay" comment="res\layui\lay">
+				<folder name="modules" path="res\layui\lay\modules" comment="res\layui\lay\modules">
+					<file name="carousel.js" path="res\layui\lay\modules\carousel.js" comment="res\layui\lay\modules\carousel.js"/>
+					<file name="code.js" path="res\layui\lay\modules\code.js" comment="res\layui\lay\modules\code.js"/>
+					<file name="element.js" path="res\layui\lay\modules\element.js" comment="res\layui\lay\modules\element.js"/>
+					<file name="flow.js" path="res\layui\lay\modules\flow.js" comment="res\layui\lay\modules\flow.js"/>
+					<file name="form.js" path="res\layui\lay\modules\form.js" comment="res\layui\lay\modules\form.js"/>
+					<file name="jquery.js" path="res\layui\lay\modules\jquery.js" comment="res\layui\lay\modules\jquery.js"/>
+					<file name="laydate.js" path="res\layui\lay\modules\laydate.js" comment="res\layui\lay\modules\laydate.js"/>
+					<file name="layedit.js" path="res\layui\lay\modules\layedit.js" comment="res\layui\lay\modules\layedit.js"/>
+					<file name="layer.js" path="res\layui\lay\modules\layer.js" comment="res\layui\lay\modules\layer.js"/>
+					<file name="laypage.js" path="res\layui\lay\modules\laypage.js" comment="res\layui\lay\modules\laypage.js"/>
+					<file name="laytpl.js" path="res\layui\lay\modules\laytpl.js" comment="res\layui\lay\modules\laytpl.js"/>
+					<file name="mobile.js" path="res\layui\lay\modules\mobile.js" comment="res\layui\lay\modules\mobile.js"/>
+					<file name="table.js" path="res\layui\lay\modules\table.js" comment="res\layui\lay\modules\table.js"/>
+					<file name="tree.js" path="res\layui\lay\modules\tree.js" comment="res\layui\lay\modules\tree.js"/>
+					<file name="upload.js" path="res\layui\lay\modules\upload.js" comment="res\layui\lay\modules\upload.js"/>
+					<file name="util.js" path="res\layui\lay\modules\util.js" comment="res\layui\lay\modules\util.js"/>
+				</folder>
+			</folder>
+		</folder>
+	</folder>
+	<folder name="html" path="html" comment="目录" embed="false">
+		<file name="main.aardio" path="html\main.aardio" comment="html\main.aardio"/>
+		<file name="main.html" path="html\main.html" comment="html\main.html"/>
+		<folder name="js" path="html\js" comment="html\js">
+			<file name="echarts.min.js" path="html\js\echarts.min.js" comment="html\js\echarts.min.js"/>
+		</folder>
+	</folder>
+</project>
