@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project ver="10" name="PrintLabel" libEmbed="true" icon="..." ui="win" output="PrintLabel.exe" CompanyName="单位名称" FileDescription="PrintLabel" LegalCopyright="Copyright (C) 单位名称 2018" ProductName="PrintLabel" InternalName="PrintLabel" FileVersion="0.0.0.06" ProductVersion="0.0.0.06" publishDir="/Publish/" dstrip="false">
+	<file name="main.aardio" path="main.aardio" comment="main.aardio"/>
+	<folder name="资源文件" path="res" embed="true">
+		<file name="pure.bmp" path="res\pure.bmp" comment="res\pure.bmp"/>
+	</folder>
+</project>
